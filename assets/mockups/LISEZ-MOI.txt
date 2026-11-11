@@ -1,0 +1,3 @@
+Déposez ici vos vraies images de référence (moindre qualité / haute qualité),
+puis déclarez-les dans categories.js → MOCKUP_OVERRIDES.
+Exemple : truffes-low.jpg, truffes-high.jpg

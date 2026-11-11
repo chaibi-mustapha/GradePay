@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GradePay — Smart AI Quality Grading & Real-Time PayPal Checkout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4.0">
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" id="brand" title="Home">💸 <span>GradePay</span></button>
+    <div class="topbar-right">
+      <div class="topbar-chips" id="topStatusTag"></div>
+    </div>
+  </header>
+
+  <nav id="stepper" class="stepper hidden">
+    <div class="stepper-card">
+      <div class="stepper-bar">
+        <button type="button" class="btn ghost small stepper-nav-btn" id="btnBack">← Back</button>
+        <ol class="stepper-steps" id="stepperSteps"></ol>
+        <button type="button" class="btn primary small stepper-nav-btn" id="btnNext">Next →</button>
+      </div>
+      <div id="editBannerWrap"></div>
+    </div>
+  </nav>
+
+  <main id="screen" class="screen"></main>
+  <div id="settingsModal" class="modal-backdrop hidden" role="dialog" aria-modal="true"></div>
+  <div id="socialModal" class="modal-backdrop hidden" role="dialog" aria-modal="true"></div>
+  <div id="printModal" class="modal-backdrop hidden" role="dialog" aria-modal="true"></div>
+  <div id="calibEditModal" class="modal-backdrop hidden" role="dialog" aria-modal="true"></div>
+
+  <div id="printArea" class="print-area" aria-hidden="true"></div>
+  <div id="confetti" aria-hidden="true"></div>
+
+  <script src="lib/qrcode.js"></script>
+  <script src="categories.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

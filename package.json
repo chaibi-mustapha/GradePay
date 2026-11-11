@@ -1,0 +1,12 @@
+{
+  "name": "gradepay",
+  "version": "1.0.0",
+  "description": "AI-powered quality grading and real-time PayPal payments",
+  "main": "serveur.js",
+  "scripts": {
+    "start": "node serveur.js"
+  },
+  "keywords": ["paypal", "gemini", "hackathon", "grading", "payments"],
+  "author": "chaibi-mustapha",
+  "license": "MIT"
+}
