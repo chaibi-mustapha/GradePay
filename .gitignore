@@ -1,0 +1,11 @@
+# Vidéos et médias volumineux pour montage local
+assets/videos/
+*.mp4
+*.mov
+*.avi
+
+# Dépendances et environnement
+node_modules/
+.env*
+.DS_Store
+Thumbs.db
